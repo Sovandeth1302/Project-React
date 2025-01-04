@@ -60,13 +60,13 @@ function Home() {
           </div>
         </div>
       </nav>
-			<div class="hero">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-5">
-							<div class="intro-excerpt">
+			<div className="hero">
+				<div className="container">
+					<div className="row justify-content-between">
+						<div className="col-lg-5">
+							<div className="intro-excerpt">
 								<h1>Modern Style <span clsas="d-block">Design Collections</span></h1>
-								<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+								<p className="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
 								<p>
 									<Link to="/shop" className="btn btn-secondary me-2">
 										Shop Now
@@ -77,9 +77,9 @@ function Home() {
 								</p>
 							</div>
 						</div>
-						<div class="col-lg-7">
-							<div class="hero-img-wrap">
-								<img src="/src/assets/images/offer_img.png" class="img-fluid"/>
+						<div className="col-lg-7">
+							<div className="hero-img-wrap">
+								<img src="/src/assets/images/offer_img.png" className="img-fluid"/>
 							</div>
 						</div>
 					</div>
@@ -106,48 +106,48 @@ function Home() {
 		{/* End Product Section */}
 
 		{/* Start Why Choose Us Section */}
-		<div class="why-choose-section">
-			<div class="container">
-				<div class="row justify-content-between">
-					<div class="col-lg-6">
-						<h2 class="section-title">Why Choose Us</h2>
+		<div className="why-choose-section">
+			<div className="container">
+				<div className="row justify-content-between">
+					<div className="col-lg-6">
+						<h2 className="section-title">Why Choose Us</h2>
 						<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
 
-						<div class="row my-5">
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="assets/images/truck.svg" alt="Image" class="imf-fluid"/>
+						<div className="row my-5">
+							<div className="col-6 col-md-6">
+								<div className="feature">
+									<div className="icon">
+										<img src="assets/images/truck.svg" alt="Image" className="imf-fluid"/>
 									</div>
 									<h3>Fast &amp; Free Shipping</h3>
 									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
 								</div>
 							</div>
 
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="assets/images/bag.svg" alt="Image" class="imf-fluid"/>
+							<div className="col-6 col-md-6">
+								<div className="feature">
+									<div className="icon">
+										<img src="assets/images/bag.svg" alt="Image" className="imf-fluid"/>
 									</div>
 									<h3>Easy to Shop</h3>
 									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
 								</div>
 							</div>
 
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="assets/images/support.svg" alt="Image" class="imf-fluid"/>
+							<div className="col-6 col-md-6">
+								<div className="feature">
+									<div className="icon">
+										<img src="assets/images/support.svg" alt="Image" className="imf-fluid"/>
 									</div>
 									<h3>24/7 Support</h3>
 									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
 								</div>
 							</div>
 
-							<div class="col-6 col-md-6">
-								<div class="feature">
-									<div class="icon">
-										<img src="assets/images/return.svg" alt="Image" class="imf-fluid"/>
+							<div className="col-6 col-md-6">
+								<div className="feature">
+									<div className="icon">
+										<img src="assets/images/return.svg" alt="Image" className="imf-fluid"/>
 									</div>
 									<h3>Hassle Free Returns</h3>
 									<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -157,9 +157,9 @@ function Home() {
 						</div>
 					</div>
 
-					<div class="col-lg-5">
-						<div class="img-wrap">
-							<img src="/src/assets/images/about_us.jpg" alt="Image" class="img-fluid"/>
+					<div className="col-lg-5">
+						<div className="img-wrap">
+							<img src="/src/assets/images/about_us.jpg" alt="Image" className="img-fluid"/>
 						</div>
 					</div>
 
@@ -169,49 +169,49 @@ function Home() {
 		{/* End Why Choose Us Section */}
 
 		{/* Start Blog Section */}
-		<div class="blog-section">
-			<div class="container">
-				<div class="row mb-5">
-					<div class="col-md-6">
-						<h2 class="section-title">Recent Blog</h2>
+		<div className="blog-section">
+			<div className="container">
+				<div className="row mb-5">
+					<div className="col-md-6">
+						<h2 className="section-title">Recent Blog</h2>
 					</div>
-					<div class="col-md-6 text-start text-md-end">
-						<a href="#" class="more">View All Posts</a>
+					<div className="col-md-6 text-start text-md-end">
+						<a href="#" className="more">View All Posts</a>
 					</div>
 				</div>
 
-				<div class="row">
+				<div className="row">
 
-					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-						<div class="post-entry">
-							<a href="#" class="post-thumbnail"><img src="/src/assets/images/store1.jpg" alt="Image" class="img-fluid"/></a>
-							<div class="post-content-entry">
+					<div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div className="post-entry">
+							<a href="#" className="post-thumbnail"><img src="/src/assets/images/store1.jpg" alt="Image" className="img-fluid"/></a>
+							<div className="post-content-entry">
 								<h3><a href="#">First Time Home Owner Ideas</a></h3>
-								<div class="meta">
+								<div className="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-						<div class="post-entry">
-							<a href="#" class="post-thumbnail"><img src="/src/assets/images/store2.jpg" alt="Image" class="img-fluid"/></a>
-							<div class="post-content-entry">
+					<div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div className="post-entry">
+							<a href="#" className="post-thumbnail"><img src="/src/assets/images/store2.jpg" alt="Image" className="img-fluid"/></a>
+							<div className="post-content-entry">
 								<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
-								<div class="meta">
+								<div className="meta">
 									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-						<div class="post-entry">
-							<a href="#" class="post-thumbnail"><img src="/src/assets/images/store3.jpg" alt="Image" class="img-fluid"/></a>
-							<div class="post-content-entry">
+					<div className="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div className="post-entry">
+							<a href="#" className="post-thumbnail"><img src="/src/assets/images/store3.jpg" alt="Image" className="img-fluid"/></a>
+							<div className="post-content-entry">
 								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
-								<div class="meta">
+								<div className="meta">
 									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
 								</div>
 							</div>
