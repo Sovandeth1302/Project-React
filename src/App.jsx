@@ -8,7 +8,7 @@ import Checkout from './components/Pages/Checkout';
 import Contact from './components/Pages/Contact';
 import Service from './components/Pages/Service';
 import Home from './components/Pages/Home';
-import Login from './components/Pages/login';
+import Login from './components/Pages/Login';
 import { UserProvider } from './components/Pages/UserContext';
 export const CartContext = createContext();
 
